@@ -3,8 +3,8 @@ pipeline {
   stages {      
     stage('git pull') {
         steps {
-            // Git-URL will replace by sed command before RUN
-            git url: 'Git-URL', branch: 'main'
+            // https://github.com/IaC-Source/GitOps.git will replace by sed command before RUN
+            git url: 'https://github.com/IaC-Source/GitOps.git', branch: 'main'
         }
     }
     stage('k8s deploy'){
