@@ -31,7 +31,7 @@ pipeline {
     //    (<${env.BUILD_URL}/last-changes|Check Last changed>)
     //    """, color: 'good', tokenCredentialId: 'slack-key')             
     //    }
-    }
+    //}
     
   }
 }
